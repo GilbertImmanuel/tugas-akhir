@@ -1,0 +1,5 @@
+venv\Scripts\activate
+python main.py
+localhost:8000
+python debug.py
+deactivate
