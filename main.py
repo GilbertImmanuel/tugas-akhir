@@ -628,7 +628,7 @@ def initialize_model():
         try:
             openai_client = OpenAI(
                 base_url="https://openrouter.ai/api/v1",
-                api_key="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"
+                api_key="api-key"
             )
             logger.info("OpenAI client initialized for OpenRouter")
         except Exception as e:
